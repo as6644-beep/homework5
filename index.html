@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Andy SE - Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Page loader -->
+  <div id="page-loader" class="page-loader">
+    <div class="spinner"></div>
+  </div>
+
+  <!-- Step 4: Fixed header -->
+  <header class="header">
+    <h1>Andy SE</h1>
+    <p>Aspiring Lawyer &amp; Software Engineer</p>
+  </header>
+
+  <div class="page-grid">
+
+    <!-- Step 1: Navigation bar  -->
+    <nav class="sidebar">
+      <ul>
+        <li><a href="#about">Summary</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact Information</a></li>
+      </ul>
+      <a href="resume.pdf" class="resume-btn" download>Download Resume</a>
+    </nav>
+
+    <!-- Step 2: Main container -->
+    <main class="main-content">
+
+      <section id="about">
+        <h2>Summary</h2>
+        <p>
+          I'm a student at NAU studying Political
+          Science and Software Engineering, with interest in
+          <strong>secure systems design</strong> and <em>independent
+          filmmaking</em>. I'm passionate about crafting things that are
+          both creative and methodic.
+        </p>
+      </section>
+
+      <section id="education">
+        <h2>Education &amp; Experience</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Institution/Company</th>
+              <th>Degree/Position</th>
+              <th>Duration</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Northern Arizona University</td>
+              <td>B.S. Political Science</td>
+              <td>2025 – Present</td>
+            </tr>
+            <tr>
+              <td>NAU ITS &amp; Information Systems</td>
+              <td>ITS Student Worker</td>
+              <td>2025 – Present</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <!-- Step 3: Skills grid -->
+      <section id="skills">
+        <h2>Skills</h2>
+        <ul class="skills-list">
+          <li class="skill-tag key-skill">HTML/CSS</li>
+          <li class="skill-tag">Python</li>
+          <li class="skill-tag">Git</li>
+          <li class="skill-tag">Communication</li>
+          <li class="skill-tag">Project Management</li>
+        </ul>
+      </section>
+
+      <!-- Step 3: Projects grid -->
+      <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+          <article class="project-card">
+            <img src="images/project1_ss.png" alt="Screenshot of project dashboard">
+            <h3>Design Project</h3>
+            <p>Designed graphics for Coconino County using Canva.</p>
+          </article>
+          <article class="project-card featured">
+            <img src="images/project2_ss.png" alt="Screenshot of design work">
+            <h3>Portfolio Website</h3>
+            <p>Built and deployed this portfolio using HTML, CSS, and GitHub Pages.</p>
+          </article>
+        </div>
+
+        <h3 class="gallery-heading">Gallery</h3>
+        <div class="project-gallery">
+          <img class="float-img" src="images/project1_ss.png" alt="Project dashboard close-up">
+          <img class="float-img" src="images/project2_ss.png" alt="Design work close-up">
+        </div>
+      </section>
+
+      <section id="contact">
+        <h2>Contact Information</h2>
+        <div class="contact-info">
+          <p>Email: <a href="mailto:trabajoandreasalcido@gmail.com">trabajoandreasalcido@gmail.com</a></p>
+          <p>Phone: <a href="tel:+19285106461">928-510-6461</a></p>
+          <p><a href="https://github.com/as6644-beep" target="_blank">GitHub</a></p>
+        </div>
+      </section>
+
+    </main>
+
+  </div>
+
+  <!-- Step 4: Fixed footer -->
+  <footer class="footer">
+    <p class="copyright">&copy; 2026 Andy SE</p>
+    <a href="#about" class="back-to-top">Back to top</a>
+  </footer>
+
+  <!-- Page loader -->
+  <script>
+    window.addEventListener('load', function () {
+      document.getElementById('page-loader').classList.add('loaded');
+    });
+  </script>
+
+</body>
+</html>
